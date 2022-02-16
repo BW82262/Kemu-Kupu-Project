@@ -1,0 +1,108 @@
+.root {
+	-fx-background-image: url("background_partial.png");
+	-fx-background-repeat: stretch;
+	-fx-background-size: 1200 900;
+	-fx-background-position: center center;
+	-fx-font: 100% "ubuntu";
+}
+
+.button {
+	-fx-background-color: #2b2b2b;
+	-fx-font-size:20;
+	-fx-text-fill: #e5eae4;
+	-fx-font: 20px "ubuntu";
+}
+
+.button:hover{
+	-fx-background-color: linear-gradient(to bottom, #2b2b2b, #3d3d3d);
+	-fx-font-size:20;
+	-fx-text-fill: #e5eae4;
+	-fx-font: 20px "ubuntu";
+}
+
+.button:pressed{
+	-fx-background-color: #646464;
+	-fx-font-size:20;
+	-fx-text-fill: #e5eae4;
+	-fx-font: 20px "ubuntu";
+}
+
+.combo-box .list-cell{
+	-fx-background-color: #2b2b2b;
+	-fx-alignment: center;
+	-fx-font: 100% "ubuntu";
+}
+
+.combo-box{
+	-fx-background-color: #2b2b2b;
+	-fx-alignment: center;
+	-fx-font: 100% "ubuntu";
+}
+
+.combo-box .cell{
+	-fx-text-fill:#e5eae4;
+	-fx-alignment: center;
+	-fx-background-color: #2b2b2b;
+	-fx-font: 17px "ubuntu";
+}
+	
+#title {
+	-fx-text-fill: #2b2b2b;
+}	
+	
+#mainPageLabel {
+	-fx-font-size:32;
+}
+
+#startQuizButton{
+	-fx-font-size:20;
+}
+
+#mainMenuButton{
+	-fx-font-size:20;
+}
+
+#mainRewardLabel{
+	-fx-font: 50px "ubuntu";
+	-fx-font-weight: bold;
+}
+
+#rewardLabel {
+	-fx-font-size: 32;
+	-fx-font-weight: bold;
+}
+
+#rewardSceneWordList {
+	-fx-font-size: 20;
+}
+
+#showSpeed{
+	-fx-font-size:24px;
+	-fx-text-fill: #00313f;
+	-fx-font-weight: bold;
+}
+
+#speedLabel{
+	-fx-font-size:24;
+	-fx-text-fill: #00313f;
+	-fx-font-weight: bold;
+}
+
+#speed{
+	-fx-font-size:16px;
+}
+
+#helpLabel{
+	-fx-font: 24px "ubuntu";
+}
+
+#buttonText{
+	-fx-font-size:20;
+	-fx-text-fill: #e5eae4;
+	-fx-font: 20px "ubuntu";
+	-fx-alignment: center;
+}
+
+
+
+
